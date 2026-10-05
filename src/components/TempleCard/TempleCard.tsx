@@ -92,9 +92,9 @@ const TempleCard: FC<TempleCardProps> = ({ temple, onClick }) => {
           </div>
 
           {/* Temple Name */}
-          <h2 className="font-display text-lg sm:text-xl font-bold text-stone group-hover:text-crimson transition-colors duration-200 leading-snug">
+          <h3 className="font-display text-lg sm:text-xl font-bold text-stone group-hover:text-crimson transition-colors duration-200 leading-snug">
             {temple.name}
-          </h2>
+          </h3>
 
           {/* Short Description */}
           <p className="mt-3 font-body text-sm text-stone/90 leading-relaxed">
