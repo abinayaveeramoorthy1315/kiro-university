@@ -8,7 +8,7 @@ import type { Temple, RegionKey } from '@/types/temple';
 export function filterTemples(
   temples: Temple[],
   query: string,
-  region: RegionKey | 'All'
+  region: RegionKey | 'All' | 'all'
 ): Temple[] {
   if (!Array.isArray(temples)) {
     return [];
@@ -27,7 +27,9 @@ export function filterTemples(
       (typeof t.location === 'string' && t.location.toLowerCase().includes(q)) ||
       (typeof t.district === 'string' && t.district.toLowerCase().includes(q));
 
-    const matchesRegion = region === 'All' || t.region === region;
+    const matchesRegion =
+      (typeof region === 'string' && region.toLowerCase() === 'all') ||
+      t.region === region;
 
     return matchesSearch && matchesRegion;
   });
