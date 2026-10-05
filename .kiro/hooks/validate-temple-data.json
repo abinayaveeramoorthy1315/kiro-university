@@ -1,0 +1,7 @@
+{
+  "name": "Validate Temple Data",
+  "event": "fileEdited",
+  "filePattern": "src/data/templeData.ts",
+  "action": "runCommand",
+  "command": "npx vitest run src/data/templeData.test.ts"
+}

@@ -1,0 +1,12 @@
+{
+  "_readme": "MCP configuration for Pride Temples of Tamil Nadu. The brave-search server is used during development to research historically accurate temple information, verify founding periods, architectural details, and cultural significance before adding records to templeData.ts.",
+  "mcpServers": {
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "YOUR_BRAVE_API_KEY_HERE"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none">
+  <rect width="640" height="400" fill="#FAF3E0"/>
+  <!-- Temple silhouette -->
+  <g fill="#8C7355" opacity="0.4">
+    <!-- Base platform -->
+    <rect x="120" y="320" width="400" height="20" rx="2"/>
+    <!-- Main sanctum -->
+    <rect x="240" y="200" width="160" height="120"/>
+    <!-- Gopuram tiers -->
+    <rect x="260" y="160" width="120" height="40"/>
+    <rect x="275" y="125" width="90" height="35"/>
+    <rect x="288" y="95" width="64" height="30"/>
+    <rect x="298" y="70" width="44" height="25"/>
+    <!-- Kalasha (finial) -->
+    <ellipse cx="320" cy="62" rx="12" ry="10"/>
+    <rect x="316" y="52" width="8" height="10"/>
+    <!-- Side shrines -->
+    <rect x="160" y="260" width="80" height="60"/>
+    <rect x="170" y="235" width="60" height="25"/>
+    <rect x="400" y="260" width="80" height="60"/>
+    <rect x="410" y="235" width="60" height="25"/>
+  </g>
+  <text x="320" y="370" text-anchor="middle" font-family="serif" font-size="14" fill="#8C7355" opacity="0.7">Temple Image</text>
+</svg>
