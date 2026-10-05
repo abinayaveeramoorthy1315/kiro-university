@@ -237,7 +237,7 @@ export const templeData: Temple[] = [
       'Direct coastal wave-front setting where religious festivals like Soorasamharam draw millions',
     ],
     significance:
-      'Celebrated in classical Sangam poetry as the site of Lord Murugan triumph, Tiruchendur is a preeminent center of Tamil spiritual identity and coastal devotion.',
+      "Celebrated in classical Sangam poetry as the site of Lord Murugan's triumph, Tiruchendur is a preeminent center of Tamil spiritual identity and coastal devotion.",
     imageUrl: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80',
     imageAlt: 'Subramaniya Swamy Temple with its majestic gopuram standing along the seashore at Tiruchendur',
   },
